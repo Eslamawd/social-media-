@@ -1,0 +1,26 @@
+.InfoCard{
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    background-color: #f7f7f7;
+    padding: 1rem;
+    border-radius: 2px;
+    width: 87%;
+}
+.infoHead{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.infoHead>div:hover{
+    cursor: pointer;
+
+}
+.logout-button{
+    width: 7rem;
+    height: 3rem;
+    margin-top: 6rem;
+    align-self: flex-end;
+
+}

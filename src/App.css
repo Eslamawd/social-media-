@@ -1,0 +1,45 @@
+:root {
+  --organ: rgb(66, 40, 78);
+  --inputColor: rgb(216, 184, 243);
+}
+
+.App{
+  overflow: hidden;
+  color: var(--organ);
+  background-color: #f3f3f3;
+  padding: 1rem 1rem;
+}
+.blur{
+  position: absolute;
+  width: 22rem;
+  height: 15rem;
+  border-radius: 50%;
+  background-color: blueviolet;
+  filter: blur(70px)
+
+}
+.button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #f3f3f3;
+  border: none;
+  border-radius: 0.7rem;
+  background-color: rgba(77, 43, 109, 0.63);
+  transition: all 100ms ease-out;
+}
+.button:hover{
+  cursor: pointer;
+  color: black;
+  background: transparent;
+  border: 2px solid black;
+}
+.button:disabled{
+  background: silver;
+  pointer-events: none;
+  
+}
+
+::-webkit-scrollbar{
+  display: none;
+}

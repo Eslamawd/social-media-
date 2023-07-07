@@ -1,0 +1,32 @@
+.RightSide{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.navIcons{
+    margin-top: 1.2rem;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.navIcons>div{
+    width: 1.7;
+    height: 1.7;
+}
+.navIcons>a>div{
+    width: 1.7;
+    height: 1.7;
+}
+
+.navIcons>div:hover{
+    cursor: pointer;
+    color: black;
+
+}
+.r-button{
+    height: 3rem;
+    width: 80%;
+    align-self: center;
+}

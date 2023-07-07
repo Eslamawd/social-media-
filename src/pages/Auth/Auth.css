@@ -1,0 +1,80 @@
+.Auth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4rem;
+    position: relative;
+}
+.Auth>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.a-left{
+    gap: 2rem;
+}
+.a-left>img{
+    width: 8rem;
+    height: 8rem;
+    border-radius: 25%;
+
+}
+.Webname>h1{
+    font-size: 3rem;
+    background-color: rgb(47, 54, 94);
+    background-image: rgba(151, 82, 207, 0.705);
+    background-size: 100%;
+    background-repeat: repeat;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -moz-background-clip: text;
+    -moz-text-fill-color: transparent;
+
+}
+
+.Webname>h6{
+    font-size: 11px;
+}
+.infoForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+.infoInput{
+    border: none;
+    outline: none;
+    background-color: rgba(246, 236, 255, 0.801);
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+
+}
+.infoInput>div{
+    display: flex;
+    gap: 1rem;
+    height: 2rem;
+    width: 90%;
+}
+.infoButton{
+    width: 6rem;
+    height: 2rem;
+    align-self: flex-end;
+}
+.authForm{
+    background-color: #f7fff7;
+    border-radius: 2rem;
+    padding: 1rem;
+}
+.authForm>div{
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
